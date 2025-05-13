@@ -83,6 +83,6 @@ public class Principal {
             System.out.printf("Total gastado         : $%.2f\n", totalGastado);
         }
         tarjeta.status();
-
+        in.close();
     }
 }
